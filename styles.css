@@ -17,8 +17,9 @@ body{
 }
 #text-input{
     height: 129px;
-    min-width: ; 
+    /* min-width: ;  */
     width: 400px;
+    margin-left: 2rem;
     margin: 2rem;
     font-family: inherit;
 }
