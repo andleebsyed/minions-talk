@@ -4,7 +4,7 @@ var textOutput = document.querySelector("#text-output")
 var serverUrl  = "https://api.funtranslations.com/translate/minion.json"
 
 function urlGenerator(input){
- return serverUrl + "?" + "text=" + input 
+    return serverUrl + "?" + "text=" + input 
 }
 
 function errorHandler(error){

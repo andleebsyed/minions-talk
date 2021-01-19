@@ -1,24 +1,63 @@
-:root{
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 
+body{
+    font-family: 'Hachi Maru Pop', cursive;
+    margin: 0px;
+}
+
+:root{
+    --primary-color : #FDE047 ;
+}
+
+.navigation{
+    text-align: center;
+    padding: 2rem 2rem;
+    background-color: var(--primary-color);
 }
 #text-input{
-    text-align: center;
-    margin-left: 50rem; 
     height: 129px; 
     width: 600px;
-    margin: 1rem;
+    margin: 2rem;
+    font-family: inherit;
 }
 #btn-translate{
-   border: 1.6px solid black;
-   margin: 1rem;
-   width: 200px;
+   margin: 2rem;
    padding: 1rem 2rem;
-   background-color: lightyellow;
+   font-family: 'Hachi Maru Pop', cursive;
+   font-weight: bold;
+   font-size: 1rem;
+   background-color: var(--primary-color);
+  
 }
  #text-output {
+    margin: 2rem;
+    margin-left: 2rem;
     border: 1px solid black;
     height: 10vh;
-    width: 86%;
-    margin: 1rem;
     padding: 1rem;
 }
+
+.output-heading{
+    margin-left: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;   
+}
+
+.main-section{
+    max-width: 600px;
+    margin: auto;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem 1rem;
+    font-weight: bold;
+}
+
+.navigation .footer-content{
+    max-width: 600px;
+    margin: auto;
+    font-weight: bold;
+}
+
