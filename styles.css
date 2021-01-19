@@ -11,9 +11,10 @@ body{
 
 .navigation{
     /* text-align: center; */
+    width: 100%;
     padding: 2rem 2rem;
     margin: auto;
-    width: 100%;
+   
     /* margin: auto; */
     background-color: var(--primary-color);
 }
@@ -23,9 +24,10 @@ body{
 
 #text-input{
 
+    width: 100%;
     margin-left: 1rem;
     margin-top: 2rem;
-    width: 100%;
+    
     min-height: 20vh;
     font-size: large;
     font-family: inherit;
