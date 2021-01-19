@@ -12,11 +12,13 @@ body{
 .navigation{
     text-align: center;
     padding: 2rem 2rem;
+    margin: auto;
     background-color: var(--primary-color);
 }
 #text-input{
-    height: 129px; 
-    width: 600px;
+    height: 129px;
+    min-width: ; 
+    width: 400px;
     margin: 2rem;
     font-family: inherit;
 }
